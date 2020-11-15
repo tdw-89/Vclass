@@ -1,0 +1,17 @@
+############# Linux Only ############
+#####################################
+
+
+From the command line:
+
+Change the working directory to a directory with the ecnoder_comp file, all of the .fsa files 
+you want to convert, and the 'Converted.sh' script.
+
+run the conversion program with the following command:
+
+$ bash Conversion.sh
+
+The program will echo the number of fsa files, and the number converted. It also creates
+a list of the converted files called 'list_of_converted_files.txt'.
+
+From R:
